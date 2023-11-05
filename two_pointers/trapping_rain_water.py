@@ -15,6 +15,7 @@ class Solution1:
 
         return totalWater
 
+# SC: O(1), TC: O(n)
 class Solution2:
     def trap(self, height: list[int]) -> int:
         ans, maxL, maxR = 0, 0, 0
